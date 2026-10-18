@@ -16,7 +16,7 @@ I use a 1D spherical model, from the center outward:
 - Shield: steel, tungsten carbide (WC), or boron carbide (B₄C), at 0, 10, 20, or 30 cm
 - 10 cm magnet, modeled as a 60/40 steel/copper mix (an assumed value)
 
-I tallied the neutron flux in the first 1 cm of the magnet: the fast flux (above 0.1 MeV) and the full energy spectrum. Each case ran 1 million neutrons (100,000 × 10 batches) with survival biasing. Statistical errors were under 1% for every result.
+I tallied the neutron flux in the first 1 cm of the magnet: the fast flux (above 0.1 MeV) and the full energy spectrum. Each case ran 1 million neutrons (100,000 × 10 batches) with survival biasing. Statistical errors were under 1% for every fast-flux result.
 
 Setup: OpenMC 0.15.3, ENDF/B-VIII.0 nuclear data, run in the `fusion-energy/neutronics-workshop` Docker image.
 
@@ -75,4 +75,4 @@ Start the container with this folder mounted:
 docker run --rm -p 8888:8888 -v "${PWD}:/home/jovyan/openmc-project" ghcr.io/fusion-energy/neutronics-workshop
 ```
 
-Then open `magnet_shielding.py` and run all cells in order. The cross-section path at the top of the notebook only works inside this Docker image.
+Then open `magnet_shielding.py` and run all cells in order. The cross-section path at the top of the script only works inside this Docker image.
