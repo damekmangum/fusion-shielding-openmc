@@ -22,9 +22,9 @@ Setup: OpenMC 0.15.3, ENDF/B-VIII.0 nuclear data, run in the `fusion-energy/neut
 
 ## Two checks
 
-**Distance.** A thicker shield moves the magnet farther from the source in this model, which lowers the flux even with nothing in the way. To account for this, I ran each thickness with an empty gap instead of a shield. The reduction factors below compare each shield with that empty gap.
+**Distance:** A thicker shield moves the magnet farther from the source in this model, which lowers the flux even with nothing in the way. To account for this, I ran each thickness with an empty gap instead of a shield. The reduction factors below compare each shield with that empty gap.
 
-**Energy threshold.** "Fast" flux is often defined as above 0.1 MeV, but some studies use 1 MeV. I checked both to see whether the ranking changes.
+**Energy threshold:** "Fast" flux is often defined as above 0.1 MeV, but some studies use 1 MeV. I checked both to see whether the ranking changes.
 
 ## Results
 
