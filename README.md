@@ -43,6 +43,7 @@ Reduction in fast flux (>0.1 MeV) compared with an empty gap of the same thickne
 - Above 1 MeV, WC was best at every thickness, and B₄C did no better than steel. So which shield looks best depends on the energy threshold used.
 
 ![Spectrum at 10 cm](figures/spectrum_10cm.png)
+![Spectrum at 20 cm](figures/spectrum_20cm.png)
 
 ## Discussion
 
